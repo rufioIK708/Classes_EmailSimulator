@@ -16,3 +16,7 @@ class User:
 
     def send_email(self, receiver, subject, body):
         email = Email(self, receiver, subject, body)
+
+class Inbox:
+    def __init__(self):
+        emails = []
