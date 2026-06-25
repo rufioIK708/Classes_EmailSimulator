@@ -11,6 +11,7 @@ class Email:
 
     def display_full_email(self):
         self.mark_as_read()
+        print("\n--- Email ---")
         
 class User:
     def __init__(self, name):
