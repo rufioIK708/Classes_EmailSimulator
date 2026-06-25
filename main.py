@@ -20,3 +20,6 @@ class User:
 class Inbox:
     def __init__(self):
         self.emails = []
+
+    def receive_email(self,email):
+        self.emails.append(email)
