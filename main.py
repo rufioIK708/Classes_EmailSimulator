@@ -14,6 +14,7 @@ class Email:
         print("\n--- Email ---")
         print(f"From: {self.sender.name}")
         print(f"To: {self.receiver.name}")
+        print(f"Subject: {self.subject}")
         
 class User:
     def __init__(self, name):
