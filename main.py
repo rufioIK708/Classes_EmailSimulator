@@ -15,6 +15,8 @@ class Email:
         print(f"From: {self.sender.name}")
         print(f"To: {self.receiver.name}")
         print(f"Subject: {self.subject}")
+        print(f'Body: {self.body}')
+
         
 class User:
     def __init__(self, name):
