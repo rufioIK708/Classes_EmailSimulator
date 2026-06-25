@@ -12,11 +12,11 @@ class Email:
 class User:
     def __init__(self, name):
         self.name = name
-        self.inbox = []
+        self.inbox = Inbox()
 
     def send_email(self, receiver, subject, body):
         email = Email(self, receiver, subject, body)
 
 class Inbox:
     def __init__(self):
-        emails = []
+        self.emails = []
